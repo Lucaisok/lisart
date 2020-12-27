@@ -13,8 +13,6 @@ const path = require("path");
 const multer = require("multer");
 const uidSafe = require("uid-safe");
 
-let secret;
-
 if (process.env.DATABASE_URL) {
     secret = process.env;
 } else {
