@@ -3,7 +3,7 @@ const app = express();
 const compression = require("compression");
 const cookieSession = require("cookie-session");
 const bodyParser = require("body-parser");
-const secret = require("./secrets.json");
+// const secret = require("./secrets.json");
 const csurf = require("csurf");
 const { sendEmail } = require("./ses.js");
 const email = `booking@lisart.earth`;
@@ -12,6 +12,8 @@ const s3 = require("./s3");
 const path = require("path");
 const multer = require("multer");
 const uidSafe = require("uid-safe");
+
+let secret;
 
 if (process.env.DATABASE_URL) {
     secret = process.env;
