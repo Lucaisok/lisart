@@ -18,7 +18,7 @@ export default function Home() {
             if (data) {
                 setProgetti(data);
             } else {
-                location.replace("/about");
+                location.replace("/");
             }
         })();
     }, []);

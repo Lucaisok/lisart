@@ -12,7 +12,7 @@ export default function Projects() {
             if (data) {
                 setProgetti(data);
             } else {
-                location.replace("/about");
+                location.replace("/");
             }
         })();
     }, []);
