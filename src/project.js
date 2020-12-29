@@ -59,17 +59,6 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
-                    <div className="desContainer">
-                        <pre className="desktop">
-                            <h4 className="description">
-                                {progetto.description}
-                            </h4>
-                        </pre>
-                        <h4 className="description mobile">
-                            {progetto.description}
-                        </h4>
-                        <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
                         <img src={progetto.imageTwo} alt="second image" />
@@ -80,6 +69,17 @@ export default function Progetto(props) {
                         <img src={progetto.imageSeven} alt="image seven" />
                         <img src={progetto.imageEight} alt="image eight" />
                         <img src={progetto.imageNine} alt="image nine" />
+                    </div>
+                    <div className="desContainer">
+                        <pre className="desktop">
+                            <h4 className="description">
+                                {progetto.description}
+                            </h4>
+                        </pre>
+                        <h4 className="description mobile">
+                            {progetto.description}
+                        </h4>
+                        <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
                 </div>
                 <div className="projectPage progettiMobile">
@@ -102,17 +102,7 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
-                    <div className="desContainer">
-                        <pre className="desktop">
-                            <h4 className="description">
-                                {progetto.description}
-                            </h4>
-                        </pre>
-                        <h4 className="description mobile">
-                            {progetto.description}
-                        </h4>
-                        <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
+
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
                         <img src={progetto.imageTwo} alt="second image" />
@@ -123,6 +113,17 @@ export default function Progetto(props) {
                         <img src={progetto.imageSeven} alt="image seven" />
                         <img src={progetto.imageEight} alt="image eight" />
                         <img src={progetto.imageNine} alt="image nine" />
+                    </div>
+                    <div className="desContainer">
+                        <pre className="desktop">
+                            <h4 className="description">
+                                {progetto.description}
+                            </h4>
+                        </pre>
+                        <h4 className="description mobile">
+                            {progetto.description}
+                        </h4>
+                        <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
                 </div>
             </div>
@@ -153,6 +154,17 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                        <img src={progetto.imageFour} alt="fourth image" />
+                        <img src={progetto.imageFive} alt="fifth image" />
+                        <img src={progetto.imageSix} alt="sixth image" />
+                        <img src={progetto.imageSeven} alt="image seven" />
+                        <img src={progetto.imageEight} alt="image eight" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -163,16 +175,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
-                        <img src={progetto.imageFour} alt="fourth image" />
-                        <img src={progetto.imageFive} alt="fifth image" />
-                        <img src={progetto.imageSix} alt="sixth image" />
-                        <img src={progetto.imageSeven} alt="image seven" />
-                        <img src={progetto.imageEight} alt="image eight" />
                     </div>
                 </div>
                 <div className="projectPage progettiMobile">
@@ -195,6 +197,17 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                        <img src={progetto.imageFour} alt="fourth image" />
+                        <img src={progetto.imageFive} alt="fifth image" />
+                        <img src={progetto.imageSix} alt="sixth image" />
+                        <img src={progetto.imageSeven} alt="image seven" />
+                        <img src={progetto.imageEight} alt="image eight" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -205,16 +218,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
-                        <img src={progetto.imageFour} alt="fourth image" />
-                        <img src={progetto.imageFive} alt="fifth image" />
-                        <img src={progetto.imageSix} alt="sixth image" />
-                        <img src={progetto.imageSeven} alt="image seven" />
-                        <img src={progetto.imageEight} alt="image eight" />
                     </div>
                 </div>
             </div>
@@ -245,6 +248,15 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                        <img src={progetto.imageFour} alt="fourth image" />
+                        <img src={progetto.imageFive} alt="fifth image" />
+                        <img src={progetto.imageSix} alt="sixth image" />
+                        <img src={progetto.imageSeven} alt="image seven" />
+                    </div>{" "}
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -255,15 +267,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
-                        <img src={progetto.imageFour} alt="fourth image" />
-                        <img src={progetto.imageFive} alt="fifth image" />
-                        <img src={progetto.imageSix} alt="sixth image" />
-                        <img src={progetto.imageSeven} alt="image seven" />
                     </div>
                 </div>
                 <div className="projectPage progettiMobile">
@@ -286,6 +289,16 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                        <img src={progetto.imageFour} alt="fourth image" />
+                        <img src={progetto.imageFive} alt="fifth image" />
+                        <img src={progetto.imageSix} alt="sixth image" />
+                        <img src={progetto.imageSeven} alt="image seven" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -296,15 +309,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
-                        <img src={progetto.imageFour} alt="fourth image" />
-                        <img src={progetto.imageFive} alt="fifth image" />
-                        <img src={progetto.imageSix} alt="sixth image" />
-                        <img src={progetto.imageSeven} alt="image seven" />
                     </div>
                 </div>
             </div>
@@ -336,6 +340,15 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                        <img src={progetto.imageFour} alt="fourth image" />
+                        <img src={progetto.imageFive} alt="fifth image" />
+                        <img src={progetto.imageSix} alt="sixth image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -346,14 +359,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
-                        <img src={progetto.imageFour} alt="fourth image" />
-                        <img src={progetto.imageFive} alt="fifth image" />
-                        <img src={progetto.imageSix} alt="sixth image" />
                     </div>
                 </div>
                 <div className="projectPage progettiMobile">
@@ -376,6 +381,15 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                        <img src={progetto.imageFour} alt="fourth image" />
+                        <img src={progetto.imageFive} alt="fifth image" />
+                        <img src={progetto.imageSix} alt="sixth image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -386,14 +400,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
-                        <img src={progetto.imageFour} alt="fourth image" />
-                        <img src={progetto.imageFive} alt="fifth image" />
-                        <img src={progetto.imageSix} alt="sixth image" />
                     </div>
                 </div>
             </div>
@@ -425,6 +431,14 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                        <img src={progetto.imageFour} alt="fourth image" />
+                        <img src={progetto.imageFive} alt="fifth image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -435,13 +449,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
-                        <img src={progetto.imageFour} alt="fourth image" />
-                        <img src={progetto.imageFive} alt="fifth image" />
                     </div>
                 </div>
                 <div className="projectPage progettiMobile">
@@ -464,6 +471,14 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                        <img src={progetto.imageFour} alt="fourth image" />
+                        <img src={progetto.imageFive} alt="fifth image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -474,13 +489,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
-                        <img src={progetto.imageFour} alt="fourth image" />
-                        <img src={progetto.imageFive} alt="fifth image" />
                     </div>
                 </div>
             </div>
@@ -512,6 +520,13 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                        <img src={progetto.imageFour} alt="fourth image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -522,12 +537,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
-                        <img src={progetto.imageFour} alt="fourth image" />
                     </div>
                 </div>
                 <div className="projectPage progettiMobile">
@@ -550,6 +559,13 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                        <img src={progetto.imageFour} alt="fourth image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -560,12 +576,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
-                        <img src={progetto.imageFour} alt="fourth image" />
                     </div>
                 </div>
             </div>
@@ -597,6 +607,12 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -607,11 +623,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
                     </div>
                 </div>
                 <div className="projectPage progettiMobile">
@@ -634,6 +645,12 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                        <img src={progetto.imageThree} alt="third image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -644,11 +661,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
-                        <img src={progetto.imageThree} alt="third image" />
                     </div>
                 </div>
             </div>
@@ -680,6 +692,11 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -690,10 +707,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
                     </div>
                 </div>
                 <div className="projectPage progettiMobile">
@@ -716,6 +729,11 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                        <img src={progetto.imageTwo} alt="second image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -726,10 +744,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
-                        <img src={progetto.imageTwo} alt="second image" />
                     </div>
                 </div>
             </div>
@@ -761,6 +775,10 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -771,9 +789,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
                     </div>
                 </div>
                 <div className="projectPage progettiMobile">
@@ -796,6 +811,10 @@ export default function Progetto(props) {
                             <p className="navigators">WORKS</p>
                         </Link>
                     </Headroom>
+
+                    <div className="projectImages">
+                        <img src={progetto.imageOne} alt="first image" />
+                    </div>
                     <div className="desContainer">
                         <pre className="desktop">
                             <h4 className="description">
@@ -806,9 +825,6 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
-                    </div>
-                    <div className="projectImages">
-                        <img src={progetto.imageOne} alt="first image" />
                     </div>
                 </div>
             </div>

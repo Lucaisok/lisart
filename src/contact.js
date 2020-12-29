@@ -100,7 +100,7 @@ export default function Contact() {
                             onChange={handleChange}
                             required
                         />
-                        <button onClick={contactHandleClick}>Send</button>
+                        <button onClick={contactHandleClick}>SEND</button>
                     </Fade>
                 </div>
             )}

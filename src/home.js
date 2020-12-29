@@ -55,7 +55,7 @@ export default function Home() {
                                     height: "91vh",
                                     backgroundColor: "black ",
                                 }}
-                                interval={4000}
+                                interval={5000}
                             >
                                 <Link to={`/project/${progetto.id}`}>
                                     <img
@@ -63,7 +63,7 @@ export default function Home() {
                                         src={progetto.preview}
                                         alt="project preview"
                                     />
-                                    <Carousel.Caption
+                                    {/* <Carousel.Caption
                                         style={{
                                             padding: "20px",
                                             fontSize: "larger",
@@ -88,7 +88,7 @@ export default function Home() {
                                         <p className="mobDescription">
                                             {progetto.description}
                                         </p>
-                                    </Carousel.Caption>
+                                    </Carousel.Caption> */}
                                 </Link>
                             </Carousel.Item>
                         );
@@ -124,7 +124,7 @@ export default function Home() {
                                     // height: "91vh",
                                     backgroundColor: "black ",
                                 }}
-                                interval={4000}
+                                interval={5000}
                             >
                                 <Link to={`/project/${progetto.id}`}>
                                     <img
@@ -132,7 +132,7 @@ export default function Home() {
                                         src={progetto.preview}
                                         alt="project preview"
                                     />
-                                    <Carousel.Caption
+                                    {/* <Carousel.Caption
                                         style={{
                                             padding: "20px",
                                             fontSize: "larger",
@@ -157,7 +157,7 @@ export default function Home() {
                                         <p className="mobDescription">
                                             {progetto.description}
                                         </p>
-                                    </Carousel.Caption>
+                                    </Carousel.Caption> */}
                                 </Link>
                             </Carousel.Item>
                         );
