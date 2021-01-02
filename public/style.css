@@ -119,9 +119,9 @@ main {
     width: 100%;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-start;
-    padding-left: 10%;
-    padding-bottom: 5%;
+    justify-content: center;
+    /* padding-left: 10%; */
+    /* padding-bottom: 5%; */
     background-color: black;
 }
 
@@ -132,10 +132,10 @@ main {
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: flex-start;
     padding-right: 10%;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     background-color: black;
 }
 
@@ -147,9 +147,9 @@ main {
     width: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
-    padding-left: 10%;
-    padding-top: 5%;
+    justify-content: center;
+    /* padding-left: 10%; */
+    /* padding-top: 5%; */
     background-color: black;
 }
 
@@ -160,10 +160,10 @@ main {
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: flex-end;
-    padding-right: 10%;
-    padding-bottom: 5%;
+    /* padding-right: 10%; */
+    /* padding-bottom: 5%; */
     background-color: black;
 }
 
