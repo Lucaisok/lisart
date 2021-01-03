@@ -18,15 +18,11 @@ export default function Contact() {
                 </Fade>
                 <Fade left>
                     <p>
-                        <strong>LIS ART</strong>
+                        <strong>LISA-MARIA THALMAYR</strong>
                     </p>
-                    <p>Masterflorist_ Selflove Coach</p>
-                    <p>Lisa Maria Thalmayr</p>
-                    <p>Witwörth 20</p>
-                    <p>5151 Nussdorf</p>
-                    <p>( Salzburg, Österreich )</p>
-                    <p>+43 664 4521107</p>
-                    <p>www.lisart.earth</p>
+                    <p>‚Artist influenced by nature’</p>
+                    <p>Creative Concepts and Installations</p>
+                    <p>Salzburg, Austria</p>
                     <p>booking@lisart.earth</p>
                     <div id="icons">
                         <a
@@ -48,15 +44,6 @@ export default function Contact() {
                             />
                         </a>
                     </div>
-                    {/* <p className="lastP">
-                        Reglementiertes Gewerbe<br></br>Mitglied von:
-                        Landesinnung Gärtner und Floristen Salzburg
-                        Gewerbeordnung:
-                        https://www.wko.at/branchen/sbg/gewerbe-handwerk/gaertner-floristen/start.html
-                        Bezirkshauptmannschaft Salzburg-Umgebung Meisterbetrieb,
-                        Meisterprüfung abgelegt in Österreich Geschäftsführer:
-                        Lisa-Maria Thalmayr
-                    </p> */}
                 </Fade>
             </div>
             {/* <div className="contactForm"> */}

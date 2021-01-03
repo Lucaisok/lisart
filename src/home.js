@@ -27,10 +27,6 @@ export default function Home() {
         document.getElementById("contact").scrollIntoView();
     };
 
-    const moverToAbout = () => {
-        document.getElementById("about").scrollIntoView();
-    };
-
     const moverToProjects = () => {
         document.getElementById("projects").scrollIntoView();
     };
@@ -95,9 +91,9 @@ export default function Home() {
                     })}
                 </Carousel>{" "}
                 <Headroom>
-                    <p className="navigators" onClick={moverToAbout}>
-                        ABOUT
-                    </p>
+                    <Link to={"/about"}>
+                        <p className="navigators">ABOUT</p>
+                    </Link>
                     <p className="navigators" onClick={moverToProjects}>
                         RECENT WORKS
                     </p>
@@ -164,9 +160,10 @@ export default function Home() {
                     })}
                 </Carousel>{" "}
                 <Headroom>
-                    <p className="navigators" onClick={moverToAbout}>
-                        ABOUT
-                    </p>
+                    <Link to={"/about"}>
+                        <p className="navigators">ABOUT</p>
+                    </Link>
+
                     <p className="navigators" onClick={moverToProjects}>
                         RECENT WORKS
                     </p>
@@ -175,7 +172,7 @@ export default function Home() {
                     </p>
                 </Headroom>
             </div>
-            <About />
+            {/* <About /> */}
             <Projects />
             <Contact />
             <Footer />

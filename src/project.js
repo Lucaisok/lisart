@@ -38,7 +38,7 @@ export default function Progetto(props) {
         return (
             <div>
                 <div className="projectPage progettiDesktop">
-                    <div className="imageeContainer">
+                    {/* <div className="imageeContainer">
                         <img
                             className="d-block w-100 previewDesk"
                             src={progetto.preview}
@@ -58,7 +58,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
                         <img src={progetto.imageTwo} alt="second image" />
@@ -81,9 +81,23 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
                 <div className="projectPage progettiMobile">
-                    <img
+                    {/* <img
                         className="d-block w-100 preview"
                         src={progetto.preview}
                         alt="preview"
@@ -101,7 +115,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -124,6 +138,20 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
+                    </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -133,7 +161,7 @@ export default function Progetto(props) {
         return (
             <div>
                 <div className="projectPage progettiDesktop">
-                    <div className="imageeContainer">
+                    {/* <div className="imageeContainer">
                         <img
                             className="d-block w-100 previewDesk"
                             src={progetto.preview}
@@ -153,7 +181,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -176,9 +204,23 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
                 <div className="projectPage progettiMobile">
-                    <img
+                    {/* <img
                         className="d-block w-100 preview"
                         src={progetto.preview}
                         alt="preview"
@@ -196,7 +238,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -219,6 +261,20 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
             </div>
         );
@@ -227,7 +283,7 @@ export default function Progetto(props) {
         return (
             <div>
                 <div className="projectPage progettiDesktop">
-                    <div className="imageeContainer">
+                    {/* <div className="imageeContainer">
                         <img
                             className="d-block w-100 previewDesk"
                             src={progetto.preview}
@@ -247,7 +303,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
                         <img src={progetto.imageTwo} alt="second image" />
@@ -268,9 +324,23 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
                 <div className="projectPage progettiMobile">
-                    <img
+                    {/* <img
                         className="d-block w-100 preview"
                         src={progetto.preview}
                         alt="preview"
@@ -288,7 +358,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -310,6 +380,20 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
             </div>
         );
@@ -319,7 +403,7 @@ export default function Progetto(props) {
         return (
             <div>
                 <div className="projectPage progettiDesktop">
-                    <div className="imageeContainer">
+                    {/* <div className="imageeContainer">
                         <img
                             className="d-block w-100 previewDesk"
                             src={progetto.preview}
@@ -339,7 +423,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -360,9 +444,23 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
                 <div className="projectPage progettiMobile">
-                    <img
+                    {/* <img
                         className="d-block w-100 preview"
                         src={progetto.preview}
                         alt="preview"
@@ -380,7 +478,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -400,6 +498,20 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
+                    </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -410,7 +522,7 @@ export default function Progetto(props) {
         return (
             <div>
                 <div className="projectPage progettiDesktop">
-                    <div className="imageeContainer">
+                    {/* <div className="imageeContainer">
                         <img
                             className="d-block w-100 previewDesk"
                             src={progetto.preview}
@@ -430,7 +542,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -450,9 +562,23 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
                 <div className="projectPage progettiMobile">
-                    <img
+                    {/* <img
                         className="d-block w-100 preview"
                         src={progetto.preview}
                         alt="preview"
@@ -470,7 +596,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -489,6 +615,20 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
+                    </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -499,7 +639,7 @@ export default function Progetto(props) {
         return (
             <div>
                 <div className="projectPage progettiDesktop">
-                    <div className="imageeContainer">
+                    {/* <div className="imageeContainer">
                         <img
                             className="d-block w-100 previewDesk"
                             src={progetto.preview}
@@ -519,7 +659,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -538,9 +678,23 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
                 <div className="projectPage progettiMobile">
-                    <img
+                    {/* <img
                         className="d-block w-100 preview"
                         src={progetto.preview}
                         alt="preview"
@@ -558,7 +712,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -576,6 +730,20 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
+                    </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -586,7 +754,7 @@ export default function Progetto(props) {
         return (
             <div>
                 <div className="projectPage progettiDesktop">
-                    <div className="imageeContainer">
+                    {/* <div className="imageeContainer">
                         <img
                             className="d-block w-100 previewDesk"
                             src={progetto.preview}
@@ -606,7 +774,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -624,9 +792,23 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
                 <div className="projectPage progettiMobile">
-                    <img
+                    {/* <img
                         className="d-block w-100 preview"
                         src={progetto.preview}
                         alt="preview"
@@ -644,7 +826,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -661,6 +843,20 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
+                    </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -671,7 +867,7 @@ export default function Progetto(props) {
         return (
             <div>
                 <div className="projectPage progettiDesktop">
-                    <div className="imageeContainer">
+                    {/* <div className="imageeContainer">
                         <img
                             className="d-block w-100 previewDesk"
                             src={progetto.preview}
@@ -691,7 +887,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -708,9 +904,23 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
                 <div className="projectPage progettiMobile">
-                    <img
+                    {/* <img
                         className="d-block w-100 preview"
                         src={progetto.preview}
                         alt="preview"
@@ -728,7 +938,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -744,6 +954,20 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
+                    </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -754,7 +978,7 @@ export default function Progetto(props) {
         return (
             <div>
                 <div className="projectPage progettiDesktop">
-                    <div className="imageeContainer">
+                    {/* <div className="imageeContainer">
                         <img
                             className="d-block w-100 previewDesk"
                             src={progetto.preview}
@@ -774,7 +998,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -790,9 +1014,23 @@ export default function Progetto(props) {
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
                     </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
+                    </div>
                 </div>
                 <div className="projectPage progettiMobile">
-                    <img
+                    {/* <img
                         className="d-block w-100 preview"
                         src={progetto.preview}
                         alt="preview"
@@ -810,7 +1048,7 @@ export default function Progetto(props) {
                         >
                             <p className="navigators">WORKS</p>
                         </Link>
-                    </Headroom>
+                    </Headroom> */}
 
                     <div className="projectImages">
                         <img src={progetto.imageOne} alt="first image" />
@@ -825,6 +1063,20 @@ export default function Progetto(props) {
                             {progetto.description}
                         </h4>
                         <h6 className="longDes">{progetto.longDescription}</h6>
+                    </div>
+                    <div className="newHeader">
+                        <Link to={"/home"} style={{ textDecoration: "none" }}>
+                            <p className="navigators">Home</p>
+                        </Link>
+                        <p className="navigators name">
+                            <strong>{progetto.name}</strong>
+                        </p>
+                        <Link
+                            to={"/Projects"}
+                            style={{ textDecoration: "none" }}
+                        >
+                            <p className="navigators">Works</p>
+                        </Link>
                     </div>
                 </div>
             </div>

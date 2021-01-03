@@ -134,19 +134,19 @@ export default function Welcome() {
                 <img
                     className="desky"
                     style={{ width: "39%", height: "auto" }}
-                    src="images/rose1.jpeg"
+                    src="images/lisa5.jpg"
                 ></img>
                 <img
                     className="moby"
                     style={{ width: "79%", height: "auto" }}
-                    src="images/rose1.jpeg"
+                    src="images/lisa5.jpg"
                 ></img>
             </div>
             <div className={classname6}>
                 <img
                     className="desky"
                     style={{ width: "49%", height: "auto" }}
-                    src="images/rose1.jpeg"
+                    src="images/lisa6.jpg"
                 ></img>
                 {/* <img
                     className="moby"
@@ -158,19 +158,19 @@ export default function Welcome() {
                 <img
                     className="desky"
                     style={{ width: "39%", height: "auto" }}
-                    src="images/rose2.jpeg"
+                    src="images/lisa7.jpg"
                 ></img>
                 <img
                     className="moby"
                     style={{ width: "79%", height: "auto" }}
-                    src="images/rose2.jpeg"
+                    src="images/lisa7.jpg"
                 ></img>
             </div>
             <div className={classname8}>
                 <img
                     className="desky"
                     style={{ width: "49%", height: "auto" }}
-                    src="images/rose3.jpeg"
+                    src="images/lisa8.jpg"
                 ></img>
                 {/* <img
                     className="moby"
@@ -182,19 +182,19 @@ export default function Welcome() {
                 <img
                     className="desky"
                     style={{ width: "39%", height: "auto" }}
-                    src="images/rose4.jpeg"
+                    src="images/lisa9.jpg"
                 ></img>
                 <img
                     className="moby"
                     style={{ width: "79%", height: "auto" }}
-                    src="images/rose4.jpeg"
+                    src="images/lisa9.jpg"
                 ></img>
             </div>
             <div className={classname10}>
                 <img
                     className="desky"
                     style={{ width: "30%", height: "auto" }}
-                    src="images/logo.jpeg"
+                    src="images/logo.jpg"
                 ></img>
                 <img
                     className="moby"

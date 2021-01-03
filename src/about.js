@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 export default function About() {
     return (
@@ -53,6 +54,17 @@ export default function About() {
                     <span className="virgo">"</span>
                 </p>
             </Fade>
+            <div className="newHeader aboutHead">
+                <Link to={"/home"} style={{ textDecoration: "none" }}>
+                    <p className="navigators">Home</p>
+                </Link>
+                {/* <p className="navigators name">
+                    <strong>{progetto.name}</strong>
+                </p> */}
+                <Link to={"/Projects"} style={{ textDecoration: "none" }}>
+                    <p className="navigators">Works</p>
+                </Link>
+            </div>
         </div>
     );
 }

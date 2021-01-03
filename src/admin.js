@@ -106,7 +106,7 @@ export default function Admin() {
                                 </div>
                                 <div className="inputLabel">
                                     <label htmlFor="LongDescription">
-                                        Long Description:{" "}
+                                        Collab / Pictures:{" "}
                                     </label>
                                     <textarea
                                         name="longDescription"
