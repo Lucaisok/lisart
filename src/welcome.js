@@ -38,18 +38,18 @@ export default function Welcome() {
         setTimeout(() => {
             setClassname3("logoContainer3 fadeout");
         }, 3500);
-        // setTimeout(() => {
-        //     setClassname5("logoContainer5 fadein");
-        // }, 3500);
+        setTimeout(() => {
+            setClassname5("logoContainer5 fadein");
+        }, 4000);
         setTimeout(() => {
             setClassname4("logoContainer4 fadeout");
         }, 4500);
         setTimeout(() => {
             setClassname6("logoContainer6 fadein");
         }, 4500);
-        // setTimeout(() => {
-        //     setClassname5("logoContainer5 fadeout");
-        // }, 5000);
+        setTimeout(() => {
+            setClassname5("logoContainer5 fadeout");
+        }, 5000);
         setTimeout(() => {
             setClassname7("logoContainer7 fadein");
         }, 4800);
@@ -148,11 +148,11 @@ export default function Welcome() {
                     style={{ width: "49%", height: "auto" }}
                     src="images/lisa6.jpg"
                 ></img>
-                {/* <img
+                <img
                     className="moby"
-                    style={{ width: "89%", height: "auto" }}
-                    src="images/circle.jpeg"
-                ></img> */}
+                    style={{ width: "79%", height: "auto" }}
+                    src="images/lisa6.jpg"
+                ></img>
             </div>
             <div className={classname7}>
                 <img
@@ -172,11 +172,11 @@ export default function Welcome() {
                     style={{ width: "49%", height: "auto" }}
                     src="images/lisa8.jpg"
                 ></img>
-                {/* <img
+                <img
                     className="moby"
-                    style={{ width: "89%", height: "auto" }}
-                    src="images/lisa8.jpeg"
-                ></img> */}
+                    style={{ width: "79%", height: "auto" }}
+                    src="images/lisa8.jpg"
+                ></img>
             </div>
             <div className={classname9}>
                 <img
@@ -199,7 +199,7 @@ export default function Welcome() {
                 <img
                     className="moby"
                     style={{ width: "65%", height: "auto" }}
-                    src="images/logo.jpeg"
+                    src="images/logo.jpg"
                 ></img>
             </div>
         </div>
