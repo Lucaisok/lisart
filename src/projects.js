@@ -24,11 +24,11 @@ export default function Projects() {
                 {progetti.map((progetto, idx) => {
                     return (
                         <div key={idx}>
-                            <h2 className="nomeProgetto">{progetto.name}</h2>
+                            {/* <h2 className="nomeProgetto">{progetto.name}</h2> */}
                             <Link to={`/project/${progetto.id}`}>
-                                <div className="overl">
+                                {/* <div className="overl">
                                     <h1>{progetto.name}</h1>
-                                </div>
+                                </div> */}
                                 <img
                                     className="proImg"
                                     height="350"

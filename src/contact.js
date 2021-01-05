@@ -46,6 +46,7 @@ export default function Contact() {
                     </div>
                 </Fade>
             </div>
+            <img src="images/logo.jpg" alt="logo" className="contactImage" />
             {/* <div className="contactForm"> */}
             {err && (
                 <div className="contactForm">

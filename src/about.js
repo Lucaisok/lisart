@@ -38,6 +38,11 @@ export default function About() {
                     alt="profile pic"
                     className="profileImageMobile"
                 />
+                <img
+                    src="images/lisa11.jpg"
+                    alt="profile pic"
+                    className="profileImageDesktop"
+                />
             </Fade>
             <Fade top>
                 <p className="about">
