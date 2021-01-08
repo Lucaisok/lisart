@@ -37,46 +37,46 @@ export default function Welcome() {
         }, 2500);
         setTimeout(() => {
             setClassname3("logoContainer3 fadeout");
-        }, 3500);
+        }, 3000);
         setTimeout(() => {
             setClassname5("logoContainer5 fadein");
-        }, 4000);
+        }, 3000);
         setTimeout(() => {
             setClassname4("logoContainer4 fadeout");
-        }, 4500);
+        }, 3500);
         setTimeout(() => {
             setClassname6("logoContainer6 fadein");
-        }, 4500);
+        }, 3500);
         setTimeout(() => {
             setClassname5("logoContainer5 fadeout");
-        }, 5000);
+        }, 4000);
         setTimeout(() => {
             setClassname7("logoContainer7 fadein");
-        }, 4800);
+        }, 4000);
         setTimeout(() => {
             setClassname6("logoContainer6 fadeout");
-        }, 4800);
+        }, 4500);
         setTimeout(() => {
             setClassname8("logoContainer8 fadein");
-        }, 5200);
+        }, 4500);
         setTimeout(() => {
             setClassname7("logoContainer7 fadeout");
-        }, 5200);
+        }, 5000);
         setTimeout(() => {
             setClassname9("logoContainer9 fadein");
-        }, 5500);
+        }, 5000);
         setTimeout(() => {
             setClassname8("logoContainer8 fadeout");
         }, 5500);
         setTimeout(() => {
             setClassname10("logoContainer10 fadein");
-        }, 8000);
+        }, 6000);
         setTimeout(() => {
             setClassname9("logoContainer9 fadeout");
         }, 6000);
         setTimeout(() => {
             location.replace("/home");
-        }, 11000);
+        }, 9000);
     }, []);
 
     return (
@@ -88,11 +88,11 @@ export default function Welcome() {
                     style={{ width: "49%", height: "auto" }}
                     src="images/lisa.jpeg"
                 ></img>
-                {/* <img
+                <img
                     className="moby"
                     style={{ width: "89%", height: "auto" }}
                     src="images/lisa.jpeg"
-                ></img> */}
+                ></img>
             </div>
             <div className={classname2}>
                 <img
@@ -112,11 +112,11 @@ export default function Welcome() {
                     style={{ width: "49%", height: "auto" }}
                     src="images/lisa3.jpeg"
                 ></img>
-                {/* <img
+                <img
                     className="moby"
                     style={{ width: "89%", height: "auto" }}
                     src="images/lisa3.jpeg"
-                ></img> */}
+                ></img>
             </div>
             <div className={classname4}>
                 <img
@@ -133,12 +133,12 @@ export default function Welcome() {
             <div className={classname5}>
                 <img
                     className="desky"
-                    style={{ width: "39%", height: "auto" }}
+                    style={{ width: "49%", height: "auto" }}
                     src="images/lisa5.jpg"
                 ></img>
                 <img
                     className="moby"
-                    style={{ width: "79%", height: "auto" }}
+                    style={{ width: "89%", height: "auto" }}
                     src="images/lisa5.jpg"
                 ></img>
             </div>
@@ -150,19 +150,19 @@ export default function Welcome() {
                 ></img>
                 <img
                     className="moby"
-                    style={{ width: "79%", height: "auto" }}
+                    style={{ width: "89%", height: "auto" }}
                     src="images/lisa6.jpg"
                 ></img>
             </div>
             <div className={classname7}>
                 <img
                     className="desky"
-                    style={{ width: "39%", height: "auto" }}
+                    style={{ width: "49%", height: "auto" }}
                     src="images/lisa7.jpg"
                 ></img>
                 <img
                     className="moby"
-                    style={{ width: "79%", height: "auto" }}
+                    style={{ width: "89%", height: "auto" }}
                     src="images/lisa7.jpg"
                 ></img>
             </div>
@@ -174,19 +174,19 @@ export default function Welcome() {
                 ></img>
                 <img
                     className="moby"
-                    style={{ width: "79%", height: "auto" }}
+                    style={{ width: "89%", height: "auto" }}
                     src="images/lisa8.jpg"
                 ></img>
             </div>
             <div className={classname9}>
                 <img
                     className="desky"
-                    style={{ width: "39%", height: "auto" }}
+                    style={{ width: "49%", height: "auto" }}
                     src="images/lisa9.jpg"
                 ></img>
                 <img
                     className="moby"
-                    style={{ width: "79%", height: "auto" }}
+                    style={{ width: "89%", height: "auto" }}
                     src="images/lisa9.jpg"
                 ></img>
             </div>
