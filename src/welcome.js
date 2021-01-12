@@ -197,6 +197,7 @@ export default function Welcome() {
                     src="images/logo.jpg"
                 ></img>
                 <img
+                    onLoad
                     className="moby"
                     style={{ width: "65%", height: "auto" }}
                     src="images/logo.jpg"

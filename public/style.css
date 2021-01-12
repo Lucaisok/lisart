@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "LOVES";
+    src: url("LOVES.ttf");
+}
+
 body,
 html {
     margin: 0;
@@ -252,7 +257,9 @@ main {
 .about {
     max-width: 70%;
     margin: auto;
-    font: bold 20px/1.4 "Open Sans", arial, sans-serif;
+    /* font: bold 20px/1.4 "Open Sans", arial, sans-serif; */
+    font-family: "LOVES", sans-serif;
+    font-size: 20px;
     margin-top: 50px;
     /* color: gray; */
     color: white;
@@ -499,7 +506,9 @@ pre {
 }
 
 .description {
-    font: 20px/1.4 "Open Sans", arial, sans-serif;
+    /* font: 20px/1.4 "Open Sans", arial, sans-serif; */
+    font-family: "LOVES", sans-serif;
+    font-size: 20px;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
@@ -509,7 +518,9 @@ pre {
 }
 
 .longDes {
-    font: 18px/1.4 "Roboto", arial, sans-serif;
+    /* font: 18px/1.4 "Roboto", arial, sans-serif; */
+    font-family: "LOVES", sans-serif;
+    font-size: 18px;
     text-align: center;
     margin-top: 15px;
     margin-left: 5%;
